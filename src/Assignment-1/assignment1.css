@@ -1,7 +1,25 @@
-/* Our CSS file. */
+#container{
+    border: 2px solid black;
 
-
-.container, .content {
-width: 100%;
-height: 100%;
 }
+
+.left,.right{
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+    display: inline-block;
+    margin:30px;
+   
+}
+.left{
+    vertical-align: top;
+    margin:30px;
+    background-color: cadetblue;
+    height:300px;
+}
+img{
+    width: 100%;
+    height: 300px;
+}
+
+
